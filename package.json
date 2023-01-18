@@ -2,22 +2,46 @@
   "name": "universal-comments",
   "displayName": "Universal Comments",
   "description": "temp desc",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
-    "Other"
+    "Formatters"
   ],
   "activationEvents": [
-    "onCommand:universal-comments.helloWorld"
+    "*"
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "configuration":[
       {
-        "command": "universal-comments.helloWorld",
-        "title": "Hello World"
+        "title": "Universal Comments",
+        "properties": {
+          "universal-comments.comments.singleLine": {
+            "type": "string",
+            "default": "//",
+            "description": "todo",
+            "order": 0
+          },
+          "universal-comments.comments.multiLineStart": {
+            "type": "string",
+            "default": "/*",
+            "description": "todo",
+            "order": 1
+          },
+          "universal-comments.comments.multiLineEnd": {
+            "type": "string",
+            "default": "*/",
+            "description": "todo",
+            "order": 2
+          },
+          "universal-comments.misc.addSpace": {
+            "type": "boolean",
+            "default": false,
+            "description": "todo"
+          }
+        }
       }
     ]
   },
@@ -26,8 +50,7 @@
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
-    "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "lint": "eslint src --ext ts"
   },
   "devDependencies": {
     "@types/vscode": "^1.74.0",
