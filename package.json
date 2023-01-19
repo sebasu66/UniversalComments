@@ -21,25 +21,32 @@
           "universal-comments.comments.singleLine": {
             "type": "string",
             "default": "//",
-            "description": "todo",
+            "description": "Universal single-line comment character sequence",
             "order": 0
           },
           "universal-comments.comments.multiLineStart": {
             "type": "string",
             "default": "/*",
-            "description": "todo",
+            "description": "Universal multi-line (block) comment opening character sequence",
             "order": 1
           },
           "universal-comments.comments.multiLineEnd": {
             "type": "string",
             "default": "*/",
-            "description": "todo",
+            "description": "Universal multi-line (block) comment closing character sequence",
             "order": 2
+          },
+          "universal-comments.misc.closeBlock": {
+            "type": "boolean",
+            "default": true,
+            "description": "If enabled, multi-line (block) comment will be closed automatically",
+            "order": 4
           },
           "universal-comments.misc.addSpace": {
             "type": "boolean",
             "default": false,
-            "description": "todo"
+            "description": "If enabled, space will be added automatically after comment character",
+            "order": 5
           }
         }
       }
