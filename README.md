@@ -1,13 +1,11 @@
 <div align='center'>
-  <img alt='Banner' src='./images/banner.png'>
-</div>
 
+![Banner](/images/banner.png)
 
 # About
 Universal Comments extension allows you to use same comment character in every major language with several customization options!
 
 ![Demo](/images/demo.gif)
-
 
 # Options
 | Option                      | Default | Description                                             |
@@ -17,7 +15,6 @@ Universal Comments extension allows you to use same comment character in every m
 | Comments > Multi Line End   | `*/`    | Universal block comment closing character               |
 | Misc > Close Block          | `true`  | If enabled, block comments will be closed automatically |
 | Misc > Add Space            | `false` | If enabled, space will be added automatically           |
-
 
 # Supported Languages
 |              |                  |               |            |                  |
@@ -32,3 +29,5 @@ Universal Comments extension allows you to use same comment character in every m
 | CUDA C++     | Java             | Objective-C   | Ruby       | XML              |
 | Dart         | JavaScript       | Objective-C++ | Rust       | XSL              |
 | F#           | JavaScript React | Perl, Perl6   | SCSS       | YAML             |
+
+</div>
