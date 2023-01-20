@@ -52,7 +52,7 @@ function fileChanged(event: any) {
 					position = new vscode.Position(position.line, position.character + ((comment.length < middleLength ? comment.length : Math.ceil(comment.length / 2)) - currentLength))
 
 					if (closeBlock && type == 'multiStart') {
-						comment += (addSpace? ' ' : '') + langs[event.document.languageId]['multiEnd']
+						comment += (addSpace ? ' ' : '') + langs[event.document.languageId]['multiEnd']
 					}
 
 					builder.replace(range, comment)
