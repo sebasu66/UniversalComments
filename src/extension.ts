@@ -10,9 +10,17 @@ let middleLength = 5
 
 function fileChanged(event: any) {
 	let changes = event.contentChanges[0]
-	
+
+	if (!changes) {
+		return
+	}
+
 	if (triggerChars.includes(changes.text)) {
 		for (let i = 0; i < longestComment; i++) {
+			if (changes.range.start.character - i < 0) {
+				return
+			}
+
 			let position = new vscode.Position(changes.range.start.line, changes.range.start.character - i)
 			let range = new vscode.Range(position, changes.range.end)
 			let comment = event.document.getText(range) + changes.text
