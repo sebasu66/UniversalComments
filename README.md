@@ -19,15 +19,15 @@ Universal Comments extension allows you to use same comment character in every m
 # Supported Languages
 |              |                  |               |            |                  |
 |--------------|------------------|---------------|------------|------------------|
-| Batch        | Go               | JSON          | PHP        | Shell Script     |
-| C            | Groovy           | Julia         | PowerShell | SQL              |
-| C#           | Handlebars       | LaTeX         | Properties | Swift            |
-| C++          | HLSL             | Less          | Pug        | TeX              |
-| Clojure      | HTML             | Lua, Luau     | Python     | TypeScript       |
-| CoffeeScript | Ignore           | Makefile      | R          | TypeScript React |
-| CSS          | Ini              | Markdown      | Razor      | Visual Basic     |
-| CUDA C++     | Java             | Objective-C   | Ruby       | XML              |
-| Dart         | JavaScript       | Objective-C++ | Rust       | XSL              |
-| F#           | JavaScript React | Perl, Perl6   | SCSS       | YAML             |
+| Batch        | Go               | Julia         | PHP        | Shell Script     |
+| C            | Groovy           | LaTeX         | PowerShell | SQL              |
+| C#           | Handlebars       | Less          | Properties | Swift            |
+| C++          | HLSL             | Lua           | Pug        | TeX              |
+| Clojure      | HTML             | Luau          | Python     | TypeScript       |
+| CoffeeScript | Ini              | Makefile      | R          | TypeScript React |
+| CSS          | Java             | Markdown      | Razor      | Visual Basic     |
+| CUDA C++     | JavaScript       | Objective-C   | Ruby       | XML              |
+| Dart         | JavaScript React | Objective-C++ | Rust       | XSL              |
+| F#           | JSON             | Perl, Perl6   | SCSS       | YAML             |
 
 </div>
