@@ -119,6 +119,11 @@ const langs: any = {
         multiStart: '--[[',
         multiEnd: ']]'
     },
+    luau: {
+        single: '--',
+        multiStart: '--[[',
+        multiEnd: ']]'
+    },
     makefile: {
         single: '#',
         multiStart: '#',
